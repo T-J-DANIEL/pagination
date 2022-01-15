@@ -1,4 +1,4 @@
-*,
+/* *,
 ::after,
 ::before {
   margin: 0;
@@ -9,8 +9,8 @@ body {
   font-family: monospace;
   outline:2px solid red;
   /* min-height: 100vh; */
-} 
-img{
+/* }  */
+/* img{
   width: 100%;
   object-fit: cover;
 }
@@ -18,34 +18,32 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+/* .followers-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
+  gap: 2em;
+  outline: 2px solid red;
 }
-.followers-container{
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
-width: 90vw;
-margin: 0 auto;
-gap: 2em;
-outline:2px solid red;
-}
-.card{
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width:40vw;
+  width: 40vw;
   max-width: 400px;
-  outline:2px solid red;
+  outline: 2px solid red;
   padding: 2em;
 }
-.card img{
+.card img {
   width: 40%;
 }
-.card *{
+.card * {
   margin-bottom: 1em;
-
 }
-.next{
-  outline:2px solid red;
-}
-
+.next {
+  outline: 2px solid red;
+} */

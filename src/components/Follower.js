@@ -1,11 +1,13 @@
+import { StyledFollower } from "./styled/Follower.styled"
+
 const Follower = ({data}) =>{
 const {login,avatar_url,html_url} = data
     return (
-      <div className="card">
+      <StyledFollower>
         <img src={avatar_url} alt="" />
         <h2>{login}</h2>
         <a href={html_url}>More Info...</a>
-      </div>
+      </StyledFollower>
     )
 }
 
